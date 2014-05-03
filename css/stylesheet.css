@@ -1,0 +1,28 @@
+#messagesDiv{
+  width: 340px;
+  height: 450px;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#nameInput{
+  position: relative;
+  float: right;
+  list-style-type: none;
+}
+
+#messageInput{
+  position: relative;
+  float: left;
+  list-style-type: none;
+}
+
+#clearButton{
+  position: relative;
+  float: right;
+  list-style-type: none;
+}

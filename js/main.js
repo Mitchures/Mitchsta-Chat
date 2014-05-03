@@ -17,6 +17,7 @@
     $('#messageInput').keypress(EnterInput);
     myDataRef.on('child_added', pullData);
     $('#nameInput').focus();
+    $('#clearButton').click(clearChat);
   }
 
 
@@ -43,5 +44,10 @@
     $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
     $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
   };
+
+  function clearChat(){
+    $('#messagesDiv').empty();
+    myDataRef.set(null);
+  }
 
 })();
