@@ -36,8 +36,6 @@
     var message = snapshot.val();
     displayChatMessage(message.name, message.text);
 
-    console.log(message.name);
-    console.log(chatNames);
   }
 
   function displayChatMessage(name, text) {
