@@ -1,7 +1,3 @@
-/* global Firebase:false */
-/* exported Firebase */
-
-
 (function(){
 
   'use strict';
@@ -15,6 +11,7 @@
 
   function initialize(){
     $('#messageInput').keypress(EnterInput);
+    $('#enterButton').click(EnterInputOnClick);
     myDataRef.on('child_added', pullData);
     $('#nameInput').focus();
     $('#clearButton').click(clearChat);
@@ -31,6 +28,13 @@
       $('#messageInput').focus();
     }
   }
+  function EnterInputOnClick(){
+      var name = $('#nameInput').val();
+      var text = $('#messageInput').val();
+      myDataRef.push({name: name, text: text});
+      $('#messageInput').val('');
+      $('#messageInput').focus();
+  }
 
   function pullData(snapshot){
     var message = snapshot.val();
@@ -39,7 +43,9 @@
   }
 
   function displayChatMessage(name, text) {
-    $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
+    var $div = $('<div/>').addClass('messages');
+
+    $div.text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
     $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
   };
 
