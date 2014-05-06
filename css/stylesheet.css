@@ -86,7 +86,7 @@ body{
 #enterButton:active{
   background: #6600ff;
   border: 1px solid #6600ff;
-  color: white;
+  color: white !important;
 }
 #enterButton:hover{
   border: 1px solid #6600ff;
@@ -112,7 +112,7 @@ body{
 #clearButton:active{
   background: #6600ff;
   border: 1px solid #6600ff;
-  color: white;
+  color: white !important;
 }
 
 #clearButton:hover{
