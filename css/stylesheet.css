@@ -4,51 +4,115 @@ body{
   font-family: 'Lato', sans-serif !important;
 }
 
-#messagesDiv{
-  width: 340px;
-  height: 450px;
-/*  border: 1px solid black;*/
+.mainTitle{
   display: block;
-  background: lightgrey;
-  border-radius: 4px;
-  box-shadow: 0px 0px 5px black;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  padding-top: 10px;
+  text-align: center;
+  background: #313131;
+  color: white;
+  padding: 10px;
+  width: 340px;
+}
+
+#messagesDiv{
+  width: 340px;
+  height: 420px;
+/*  border: 1px solid black;*/
+  display: block;
+  position: relative;
+  bottom: 11px;
+/*  background: lightgrey;*/
+/*  border-radius: 4px;*/
+/*  box-shadow: 0px 0px 5px black;*/
+  border: 1px solid #313131;
+  margin-left: auto;
+  margin-right: auto;
+/*  margin-top: 30px;*/
+/*  padding-top: 10px;*/
   margin-bottom: 10px;
 }
 
 
 
 .messages{
-  background: #0066FF;
+  background: #6600ff;
   color: white;
   padding: 3px;
-  margin-left: 10px;
-  margin-right: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
   margin-top: 2px !important;
-  border-radius: 5px;
+/*  border-radius: 5px;*/
   font-family: 'Lato', sans-serif !important;
   text-decoration: none;
 }
 
 #nameInput{
   position: relative;
-  float: right;
   list-style-type: none;
   width: 100px;
-  margin-right: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 19px;
+  right: 120px;
 }
+
 
 #messageInput{
   position: relative;
-  float: left;
   list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 45px;
+  left: 10px;
 }
+
+#enterButton{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 26px;
+  bottom: 71px;
+  left: 130px;
+  width: 80px;
+  color: #313131;
+  background: white;
+  border: 1px solid #313131;
+}
+
+#enterButton:active{
+  background: #6600ff;
+  border: 1px solid #6600ff;
+  color: white;
+}
+
+
+
 
 #clearButton{
   position: relative;
-  float: right;
   list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 69px;
+  width: 340px;
+  color: #313131;
+  background: white;
+  border: 1px solid #313131;
 }
+
+#clearButton:active{
+  background: #6600ff;
+  border: 1px solid #6600ff;
+  color: white;
+}
+/*
+.inputs{
+  border: 1px solid #313131;
+  margin: 0 auto;
+  align: center;
+}/*
