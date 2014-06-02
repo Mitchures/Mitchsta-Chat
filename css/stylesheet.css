@@ -8,23 +8,25 @@ body{
   body{
     width: 100% !important;
     height: 100% !important;
+    background-color: #313131 !important;
   }
   #messagesDiv{
     width: 100% !important;
-    /*height: 420px;*/
+    height: 250px !important;
+    background-color: white !important;
   /*  border: 1px solid black;*/
     /*display: block;*/
-    /*position: relative;*/
-    /*bottom: 11px;*/
+    position: relative;
+    bottom: 2px !important;
   /*  background: lightgrey;*/
   /*  border-radius: 4px;*/
   /*  box-shadow: 0px 0px 5px black;*/
     /*border: 1px solid #313131;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
-    /*margin-top: 30px;*/
+    margin-top: 0px !important;
   /*  padding-top: 10px;*/
-    /*margin-bottom: 10px;*/
+    margin-bottom: 0px !important;
     /*overflow: scroll;*/
   }
 
@@ -32,26 +34,18 @@ body{
     width: 100% !important;
   }
 
+
   .mainTitle{
-    /*display: block;*/
+    width: 100% !important;
+    /*height: 50px !important;*/
+    display: block;
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     text-align: center;
     background: #313131;
     color: white;
-    /*padding: 10px;*/
+    padding: 10px !important;
     width: 100% !important;
-  }
-
-  #nameInput{
-    /*position: relative;*/
-    list-style-type: none;
-    /*width: 100% !important;*/
-    display: block;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*bottom: 19px;*/
-    /*right: 120px;*/
   }
 
   #clearButton{
@@ -60,47 +54,58 @@ body{
     /*display: block;*/
     /*margin-left: auto;*/
     /*margin-right: auto;*/
-    /*bottom: 69px;*/
+    bottom: 0px !important;
     width: 100% !important;
+    height: 80px !important;
     color: #313131;
     background: white;
     border: 1px solid #313131;
   }
 
   #enterButton{
-    /*position: relative;*/
-    /*display: block;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    height: 26px;
-    /*bottom: 71px;*/
-    /*left: 130px;*/
-    width: 60px !important;
+    position: relative;
+    display: block;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    left: 0px !important;
+    height: 80px !important;
+    width: 100% !important;
     color: #313131;
     background: white;
     border: 1px solid #313131;
+    bottom: 2px !important;
+    /*border-radius: 150px !important;*/
   }
 
   #nameInput{
-    /*position: relative;*/
-    list-style-type: none;
-    width: 80px !important;
-    display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    /*bottom: 19px;*/
-    /*right: 120px;*/
+    border: 1px solid #313131 !important;
+    position: relative;
+    /*list-style-type: none;*/
+    width: 100% !important;
+    height: 50px !important;
+    display: block !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    margin-bottom: 14px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0px !important;
+    margin-bottom: 2px !important;
   }
 
   #messageInput{
-    /*position: relative;*/
+    border: 1px solid #313131 !important;
+    position: relative;
     /*list-style-type: none;*/
-    /*display: block;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*bottom: 45px;*/
-    width: 175px !important;
-    /*left: 10px !important;*/
+    display: block;
+    margin-bottom: 4px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    top: 0px !important;
+    height: 50px !important;
+    width: 100% !important;
+    left: 0px !important;
+    bottom: 0px !important;
   }
 
 
