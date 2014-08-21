@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var myDataRef = new Firebase('https://radiant-fire-128.firebaseio.com');
+  var myDataRef = new Firebase('https://mitch-sta-chat.firebaseio.com');
 
   $(document).ready(initialize);
 
